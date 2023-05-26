@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&family=Roboto:wght@400;700&display=swap');
+*
+{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+h1,h2.h3,h4,h5,h6
+{
+    font-weight: 700;
+}
+header
+{
+    padding: 20px 0;
+}
+.bg1
+{
+    
+    background: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+    background-size: cover;
+}
+.con
+{
+    width: 1200px;
+    margin: auto;
+}
+.f
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+}
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.gap
+{
+    gap: 40px;
+}
+.w-100
+{
+    width: 100%;
+}
+.active
+{
+    border: 2px solid white; 
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.left{
+  
+    color: white;
+}
+.left h1{
+    font-size: 60px;
+    padding: 20px 0;
+    
+}
+.left h4{
+    font-size: 80px;
+    padding: 30px 0;
+    color: #00FF99;
+    
+}
+.info ul{
+    list-style: disc;
+}
+.info ul li{
+    line-height: 45px;
+    font-size: 20px;
+}
+.info ul li span{
+    padding-left: 100px;
+}
+.orange::marker
+{
+    color: orange;
+    font-size: 20px;
+}
+.green::marker
+{
+    color: green;
+    font-size: 20px;
+}
+
+.pink::marker
+{
+    color: pink;
+    font-size: 20px;
+}
+.btn
+{
+    border: 2px solid white;
+   padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+.c{
+    animation: circle 12s linear infinite;
+}
+@keyframes circle
+{
+        100%{ transform: rotate(360deg);}
+}
+.bg2
+{
+    background: #06254C; 
+    color: white;
+    padding: 30px 0px;
+}
+.righta
+{
+    width: 50%; 
+    
+}
+.righta h1
+{
+    font-size: 40px;
+}
+.box{
+    margin: 20px 0;
+}
+.box img{
+    border-radius: 50%;
+}
+.bg3
+{
+   
+    color: white;
+    background: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+}
+.title
+{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+   padding: 20px 0;
+}
+.wrap
+{
+    
+    flex-wrap: wrap;
+
+}
+article{
+    width: 47%;
+    background: #06254C;
+    color: white;
+    padding: 20px;
+   transition: 0.9s;
+    
+}
+article:hover{
+    background: white;
+    color: #06254C;
+}
+.pt
+{
+    padding: 50px 0;
+}
+.bg4
+{
+    background: #06254C; 
+    color: white;
+    padding: 30px 0px;
+}
+.righta h3
+{
+    color: #00FF99;
+}
+.box h3{
+    color: white;
+}
+.bg5
+{
+    
+    background: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+    background-size: cover;
+    color: white;
+}
+.title h1{
+    font-size: 40px;
+}
+.tbox
+{
+    /* background: #06254C; */
+    border: 5px solid #06254C;
+    padding: 15px;
+}
+.tbox h1,p{
+    padding: 10px;
+}
+.border
+{
+    /* border: 2px solid white; */
+    padding: 10px;
+}
+.border >div
+{
+   width: 50%;
+   border: 2px solid white;
+   padding: 20px;
+   height: 100px;
+}
+footer
+{
+    
+    background: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+    height: 55vh;
+    /* background-size: cover; */
+    padding: 30px 0;
+    color: white;
+}
+footer li{
+    line-height: 30px;
+}
+footer h4{
+    padding-bottom: 20px;
+}
+.copyright
+{
+    text-align: center;
+    padding: 30px 0;
+}
+.pd
+{
+    padding-bottom: 10px;
+}
+

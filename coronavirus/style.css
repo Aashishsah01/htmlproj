@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con
+{
+    width: 1100px;
+    margin: auto;
+    height: 100vh;
+    padding: 20px;
+   
+}
+
+.bg
+{
+    background: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+}
+.f
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+
+}
+
+ul
+{
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+  
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+    
+   
+}
+a:hover{ color: palevioletred;}
+nav
+{
+    padding: 15px;
+   
+}
+.logo
+{
+    flex-grow: 1;
+}
+
+
+.r
+{
+    width: 50%;
+}
+.main2
+{
+ background: #06254C;
+}
+.txt h2
+{
+    color: #00FF99;
+}
+
+.txt
+{
+    font-size: 20px;
+    color: white;
+}
+.txt p
+{
+    line-height: normal;
+}
+.txt h5
+{
+    color: #01DB8B;
+}
+.bg2
+{
+    background: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+   
+}
+.abc
+{
+   color: white;
+   
+}
+.box
+{
+    background: blue;
+
+}
+button
+{
+    border: 2px solid white;
+    background: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+   
+}
+.a1
+{
+    
+    display: flex;
+
+  
+
+}
+.gffh
+{
+    border-radius: 50%;
+    margin: 25px 25px 25px 0px ;
+}
+.dsa
+{
+    margin: 25px 0;
+}
+.services{
+    background: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+.text5
+{
+    width: 50%;
+    color: white;
+        justify-content: center;
+    align-items: center;
+}
+
